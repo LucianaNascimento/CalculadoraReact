@@ -1,0 +1,33 @@
+.button-container{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0.5px solid black;
+    background: #75757d;
+   }
+
+.operator{
+    background: #f1a23d;
+    color: #fff;
+}
+
+.button-container:hover{
+    opacity: 0.7;
+  }
+
+.button-container:active{
+    background: white;
+    opacity: 0.3;
+    color: #4a494f;
+  }
+
+
+  
+
+  

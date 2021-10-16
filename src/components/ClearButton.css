@@ -1,0 +1,25 @@
+.allClear{
+    grid-column: 1 / 4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    background: #5a5663;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0.5px solid black;
+    
+      
+  }
+
+  .allClear:hover{
+    opacity: 0.7;
+  }
+
+  .allClear:active{
+    background: white;
+    opacity: 0.3;
+    color: #4a494f;
+  }

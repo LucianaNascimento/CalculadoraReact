@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  background: linear-gradient(#686a6c, #f1a23d);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.grid-template-areas{
+  display: grid;
+  height: 480px;
+  width: 400px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  justify-content: center;
+  align-content: center;
+  
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+  .grid-template-areas{
+    display: grid;
+    height: 400px;
+    width: 320px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    align-content: center;
+    
+}
+
+}
+
+@media (max-width: 360px) {
+  .grid-template-areas{
+    display: grid;
+    height: 350px;
+    width: 270px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    align-content: center;
+    
+}
+
+}
+
+@media (max-width: 280px) {
+  .grid-template-areas{
+    display: grid;
+    height: 320px;
+    width: 240px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    align-content: center;
+    
+}
+
+}
+
+
+
+
+

@@ -1,0 +1,10 @@
+.display{
+    background: #F2F2F2;
+    opacity: 0.7;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    grid-column: 1 / 5;
+    font-size: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
